@@ -115,7 +115,20 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation-name: girotondo;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    transition-timing-function: linear;
 }
+
+@keyframes girotondo {
+    0% {
+        transform: rotate(360deg);
+}
+
+/*es 10 completo*/
+
+
 .ex-11-icon {
     font-size: 60px;
 }
