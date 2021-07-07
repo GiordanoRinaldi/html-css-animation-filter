@@ -15,7 +15,15 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 5s;
 }
+
+.ex-2-square:active {
+    width: 1000px;
+}
+
+/*es 2 svolto */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
