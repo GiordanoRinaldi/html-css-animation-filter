@@ -88,6 +88,17 @@
 
 /*es 7 completato*/
 
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(100%) sepia(60%);
+    border-radius: 20%;
+}
+
+/*es 8 completo*/
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
