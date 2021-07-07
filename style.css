@@ -78,6 +78,16 @@
 
 /*es 6 completato */
 
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%) sepia(60%);
+}
+
+/*es 7 completato*/
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
