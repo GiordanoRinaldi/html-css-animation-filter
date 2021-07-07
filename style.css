@@ -41,7 +41,15 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+
+.ex-4-square:hover {
+    background: none;
+}
+
+/*es 4 svolto*/
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
