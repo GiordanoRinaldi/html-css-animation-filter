@@ -180,3 +180,41 @@
     width: 60px;
     height: 20px;
 }
+
+/*es 12*/
+
+.ex-12-button:hover .ex-12-top-white {
+    animation-duration: 1s;
+    transition-timing-function: linear;
+    animation-name: button1top;
+    animation-iteration-count: infinite;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-duration: 1s;
+    transition-timing-function: linear;
+    animation-name: button1bottom;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button1top {
+    50% {
+        left: 20%;
+    }
+
+    100% {
+        left: 30%;
+    }
+}
+
+@keyframes button1bottom {
+    50% {
+        right: 30%;
+    }
+
+    100% {
+        right: 40%;
+    }
+}
+
+/*/ed12*/
